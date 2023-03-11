@@ -4,7 +4,7 @@ using OfficeOpenXml;
 using static System.Net.WebRequestMethods;
 using YellowPagesScrapper;
 
-string[] states = { " AZ, DE, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, VT," };
+string[] states = { "AZ", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "VT" };
 int stateIndex = 0;
 Directory.CreateDirectory("../../../../result");
 
