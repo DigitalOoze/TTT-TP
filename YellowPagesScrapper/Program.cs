@@ -12,19 +12,19 @@ foreach (var state in states)
 {
     Dictionary<string, string> Searching = new Dictionary<string, string>
     {
-       // { "Insurance", $"https://www.yellowpages.com/search?search_terms=Insurance&geo_location_terms={state}&page=" },
+        //{ "Insurance", $"https://www.yellowpages.com/search?search_terms=Insurance&geo_location_terms={state}&page=" },
         //{ "Investment firm", $"https://www.yellowpages.com/search?search_terms=Investment%20firm&geo_location_terms={state}&page=" },
         //{ "Financial Planning", $"https://www.yellowpages.com/search?search_terms=Financial%20Planning%20Consultants&geo_location_terms={state}&page=" },
         //{ "Brokerage firms", $"https://www.yellowpages.com/search?search_terms=brokerage+firm&geo_location_terms={state}&page=" },
         //{ "Accounting firms", $"https://www.yellowpages.com/search?search_terms=accounting+firms&geo_location_terms={state}&page=" },
-        { "Venture Capital", $"https://www.yellowpages.com/search?search_terms=Venture+Capital&geo_location_terms={state}&page=" },
-        { "Real Estate", $"https://www.yellowpages.com/search?search_terms=Real+Estate&geo_location_terms={state}&page=" },
-        { "car rental", $"https://www.yellowpages.com/search?search_terms=car+rental&geo_location_terms={state}&page=" },
-        { "lawyer", $"https://www.yellowpages.com/search?search_terms=lawyer&geo_location_terms={state}&page=" },
-        { "Beauty Salons", $"https://www.yellowpages.com/search?search_terms=Beauty+Salons&geo_location_terms={state}&page=" },
-        { "legal service plans", $"https://www.yellowpages.com/search?search_terms=legal+service+plans&geo_location_terms={state}&page=" },
-        { "Skincare", $"https://www.yellowpages.com/search?search_terms=skin+care&geo_location_terms={state}&page=" },
-        { "Makeup ", $"https://www.yellowpages.com/search?search_terms=mAReup&geo_location_terms={state}&page=" },
+        //{ "Venture Capital", $"https://www.yellowpages.com/search?search_terms=Venture+Capital&geo_location_terms={state}&page=" },
+        //{ "Real Estate", $"https://www.yellowpages.com/search?search_terms=Real+Estate&geo_location_terms={state}&page=" },
+        //{ "car rental", $"https://www.yellowpages.com/search?search_terms=car+rental&geo_location_terms={state}&page=" },
+        //{ "lawyer", $"https://www.yellowpages.com/search?search_terms=lawyer&geo_location_terms={state}&page=" },
+        //{ "Beauty Salons", $"https://www.yellowpages.com/search?search_terms=Beauty+Salons&geo_location_terms={state}&page=" },
+        //{ "legal service plans", $"https://www.yellowpages.com/search?search_terms=legal+service+plans&geo_location_terms={state}&page=" },
+        //{ "Skincare", $"https://www.yellowpages.com/search?search_terms=skin+care&geo_location_terms={state}&page=" },
+        //{ "Makeup ", $"https://www.yellowpages.com/search?search_terms=mAReup&geo_location_terms={state}&page=" },
         { "Spa", $"https://www.yellowpages.com/search?search_terms=Spa&geo_location_terms={state}&page=" },
         { "Organic Beauty Skin Care Studio", $"https://www.yellowpages.com/search?search_terms=Organic+Beauty+Skin+Care+Studio&geo_location_terms={state}&page=" },
         { "Fitness Coach", $"https://www.yellowpages.com/search?search_terms=Fitness+Coach&geo_location_terms={state}&page=" }
