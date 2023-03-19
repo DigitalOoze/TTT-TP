@@ -4,7 +4,7 @@ using OfficeOpenXml;
 using static System.Net.WebRequestMethods;
 using YellowPagesScrapper;
 
-string[] states = { "IN", "IA", "KS", "KY", "LA", "ME", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC" };
+string[] states = {"OH"};
 int stateIndex = 0;
 Directory.CreateDirectory("../../../../result");
 
@@ -12,11 +12,11 @@ foreach (var state in states)
 {
     Dictionary<string, string> Searching = new Dictionary<string, string>
     {
-        { "Insurance", $"https://www.yellowpages.com/search?search_terms=Insurance&geo_location_terms={state}&page=" },
-        { "Investment firm", $"https://www.yellowpages.com/search?search_terms=Investment%20firm&geo_location_terms={state}&page=" },
-        { "Financial Planning", $"https://www.yellowpages.com/search?search_terms=Financial%20Planning%20Consultants&geo_location_terms={state}&page=" },
-        { "Brokerage firms", $"https://www.yellowpages.com/search?search_terms=brokerage+firm&geo_location_terms={state}&page=" },
-        { "Accounting firms", $"https://www.yellowpages.com/search?search_terms=accounting+firms&geo_location_terms={state}&page=" },
+       // { "Insurance", $"https://www.yellowpages.com/search?search_terms=Insurance&geo_location_terms={state}&page=" },
+        //{ "Investment firm", $"https://www.yellowpages.com/search?search_terms=Investment%20firm&geo_location_terms={state}&page=" },
+        //{ "Financial Planning", $"https://www.yellowpages.com/search?search_terms=Financial%20Planning%20Consultants&geo_location_terms={state}&page=" },
+        //{ "Brokerage firms", $"https://www.yellowpages.com/search?search_terms=brokerage+firm&geo_location_terms={state}&page=" },
+        //{ "Accounting firms", $"https://www.yellowpages.com/search?search_terms=accounting+firms&geo_location_terms={state}&page=" },
         { "Venture Capital", $"https://www.yellowpages.com/search?search_terms=Venture+Capital&geo_location_terms={state}&page=" },
         { "Real Estate", $"https://www.yellowpages.com/search?search_terms=Real+Estate&geo_location_terms={state}&page=" },
         { "car rental", $"https://www.yellowpages.com/search?search_terms=car+rental&geo_location_terms={state}&page=" },
